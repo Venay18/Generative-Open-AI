@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.chatbot-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    min-width: 1110px;
+    margin: auto;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-form-container {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+
+.image {
+    width: 150px;
+}
+
+.chat-container {
+    padding: 10px;
+}
+
+.msg-to-chatbot-container {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.msg-to-chatbot {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.msg-from-chatbot-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 8px;
+    width: 100%;
+    max-width: 550px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .form-container {
+      width: 350px;
+      flex-shrink: 0;
+      box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+      
+    }
+  }
+
+.msg-from-chatbot {
+    color: white;
+    background-color: #e57742;
+    
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.user-input {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 12px;
+    width: 60%;
+    border-width: 0;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 15px;
+}
+
+.send-msg-btn {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    height: 42px;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
