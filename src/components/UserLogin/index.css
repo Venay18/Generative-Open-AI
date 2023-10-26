@@ -1,0 +1,46 @@
+.login-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+   
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #e57742;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 20px;
+  }
+  .para{
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .heading{
+    font-family: Roboto;
+    font-weight:bold;
+    font-size: 22px;
+  }
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    
+  }

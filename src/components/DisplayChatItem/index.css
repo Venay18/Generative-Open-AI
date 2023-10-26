@@ -1,0 +1,33 @@
+.msg-to-chatbot-container {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.msg-to-chatbot {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.msg-from-chatbot {
+    color: white;
+    background-color: #e57742;
+    
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+    white-space: pre-line;
+}
+
+.msg-from-chatbot-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: auto;
+    
+}
+

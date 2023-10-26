@@ -8,11 +8,8 @@
 }
 
 .login-form-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+   
+    height: auto;
     width: 90%;
     min-width: 1110px;
     margin: auto;
@@ -21,7 +18,9 @@
   @media screen and (min-width: 992px) {
     .login-form-container {
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
+      width: 100%;
+      
     }
   }
 
@@ -50,6 +49,8 @@
 .msg-from-chatbot-container {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    
 }
 
 .form-container {
